@@ -4,7 +4,7 @@ body {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
   text-align: center;
-  --time: 150ms;
+  --time: 100ms;
 } p {
   margin: 0;
 }
