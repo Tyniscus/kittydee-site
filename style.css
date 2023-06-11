@@ -30,12 +30,15 @@ body {
 
 .p-bio {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   color: #d3afff;
 }
 
 .footer {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -43,10 +46,20 @@ body {
   background-color: #151618;
 }
 
+.dev {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Monsterrat', sans-serif;
+  position: relative;
+  top: -2px;
+  margin-right: 14px;
+}
+
 .tyne {
   height: 40px;
-  padding: 20px;
   transition: all 100ms;
+  position: relative;
+  top: 3px;
 } .tyne:hover {
   scale: 1.3;
   rotate: 5deg;
